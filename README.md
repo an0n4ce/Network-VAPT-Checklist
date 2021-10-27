@@ -271,6 +271,6 @@ namp -p 1521-1560 $IP oracle-tns-version.nse
 ```
 
 
-##### Disclaimer: 
+### Disclaimer: 
 
 The contents stated above is a summarised common methodology that is followed during VA-PT. The author does not claim any rights on the content. The commands and tools used can be found in many guides and blogs. The main purpose of this document is to make aware or facilitate readers of common methodology to be followed during VA-PT. However, the author is not responsible for any misuse of any commands mentioned above. The scans / VAPT activity is to be conducted only after the consent of the Application owner/ Server Owner.
