@@ -20,8 +20,14 @@ hping3 -A $IP
 ## 2. Identify OS type
 
 * Nmap
+```bash
+nmap -O $IP
+```
 * Xprobe2
-* Banner grabbing using nc(netcat), telnet
+```bash
+xprobe2 <target domain or $IP>
+```
+* Banner grabbing using nc(netcat), telnet, curl, wget etc..
 
 ## 3. Port scan
 
