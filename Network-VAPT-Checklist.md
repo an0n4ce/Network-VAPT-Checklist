@@ -278,13 +278,13 @@ perl tnscmd.pl status -h $IP
 ```bash
 nmap -p 1521-1560 $IP --script oracle-brute.nse
 
-namp -p 1521-1560 $IP oracle-brute-stealth.nse
+nmap -p 1521-1560 $IP oracle-brute-stealth.nse
 
-namp -p 1521-1560 $IP oracle-enum-users.nse
+nmap -p 1521-1560 $IP oracle-enum-users.nse
 
-namp -p 1521-1560 $IP oracle-sid-brute.nse
+nmap -p 1521-1560 $IP oracle-sid-brute.nse
 
-namp -p 1521-1560 $IP oracle-tns-version.nse
+nmap -p 1521-1560 $IP oracle-tns-version.nse
 ```
 
 
