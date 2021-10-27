@@ -3,8 +3,19 @@
 ## 1. Identify live hosts
 
 * Ping
+```bash
+ping $IP
+```
 * Nmap
+```bash
+nmap -sn $IP/24
+
+nmap -sP $IP-100
+```
 * Hping
+```bash
+hping3 -A $IP
+```
 
 ## 2. Identify OS type
 
